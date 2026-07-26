@@ -35,7 +35,8 @@ public class Payment {
     public void setStatus(String status) {
         if (!status.equals("PENDING") && !status.equals("COMPLETED") && !status.equals("FAILED")) {
             //throw new IllegalArgumentException("Invalid status: " + status);
-            throw new IllegalArgumentException("Status not allowed: " + status);
+            //throw new IllegalArgumentException("Status not allowed: " + status);
+            throw new IllegalArgumentException("status value not permitted: " + status);
         }
         this.status = status;
     }
