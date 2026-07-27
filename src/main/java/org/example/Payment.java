@@ -46,7 +46,7 @@ public class Payment {
     }
 
     public void process() {
-        System.out.println("Generic payment processing");
+        System.out.println("Generic payment processing1");
     }
 
 }
